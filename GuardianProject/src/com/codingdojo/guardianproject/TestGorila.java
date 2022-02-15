@@ -16,5 +16,11 @@ public class TestGorila {
 		go.mostrarEnergia();
 		go.escalar();
 		go.mostrarEnergia();
+		
+		System.out.println("---------------");
+		
+		Murcielago mu = new Murcielago();
+		mu.mostrarEnergia();
+		
 	}
 }

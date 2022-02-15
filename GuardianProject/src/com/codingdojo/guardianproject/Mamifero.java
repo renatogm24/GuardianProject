@@ -2,7 +2,18 @@ package com.codingdojo.guardianproject;
 
 public class Mamifero {
 
-	private int nivelDeEnergia;
+	protected int nivelDeEnergia;
+	protected String prueba = "";
+	
+	public String getPrueba() {
+		return prueba;
+	}
+
+	
+	public Mamifero(String prueba) {
+		this.nivelDeEnergia = 100;
+		this.prueba = prueba;
+	}
 	
 	public Mamifero() {
 		this.nivelDeEnergia = 100;
